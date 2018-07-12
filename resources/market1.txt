@@ -1,0 +1,3 @@
+ADBE,Adobe Systems Inc.
+SAP.DE,SAP AG
+VOW3.DE,Volkswagen AG
