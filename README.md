@@ -60,7 +60,7 @@ The value of accuracy_exact signifies the ratio of correctly predicted categorie
 case about 33%. For stock price predictions, it might be enough to predict the trend (increasing or decreasing prices).
 The value of accuracy_trend evaluates how well the model predicts the trend, in this case in about
 69% of the test cases the trend was predicted correctly, which is already quite a good number considering the
-relatively simple feature used.
+relatively simple features used.
 
 Finally, we take a look at the feature importance, since a feature might be the dominant factor for predictions, or
 another might only influence the evaluation slightly. In this case, each feature has an importance of 33%, so all of them are
