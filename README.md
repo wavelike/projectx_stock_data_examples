@@ -3,7 +3,7 @@ This exemplary stock data project gives an insight into some parts of the projec
 * Data import through alphavantage API (https://www.alphavantage.co/), data cleaning and storage at filesystem or in a postgres database
 * Feature Calculations for each days stock prices
 * Training of a RandomForest model and next days price trend predictions
-* Examples of: config usage, unittests, exception handling
+* Examples of: config usage, unittests, exception handling, a class diagram
 
 ## 1. Initialisation.py
 Execution of this scripts starts data import through the alphavantage API and creation of a 'Stock' object for each
@@ -66,3 +66,7 @@ Finally, we take a look at the feature importance, since a feature might be the 
 another might only influence the evaluation slightly. In this case, each feature has an importance of 33%, so all of them are
 equally important for predicting. A correlation test between the features would be of interest to assure that 
 they have an independent impact on the predictions. 
+
+## class_diagram.png
+A class diagram of the main package, depicting the fundamental classes and their interrelationships. In this exemplary 
+project, only a reduced 'Stock' class is used.
